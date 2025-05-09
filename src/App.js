@@ -15,8 +15,9 @@ const users = [
   { id: 10, name: "Akmal", age: 26, image: "https://picsum.photos/id/1039/200/300" },
   { id: 10, name: "Tahir", age: 26, image: "https://picsum.photos/id/1048/200/300" },
 ];
-
   return (
+    <>
+<h1 className='text-center'>Display Card With React Bootstrap</h1>
     <div className="container mt-4">
       <div className="row g-4">
         {users.map((user) => (
@@ -35,6 +36,7 @@ const users = [
         ))}
       </div>
     </div>
+    </>
   );
 }
 
